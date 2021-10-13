@@ -1,0 +1,26 @@
+doctype!
+html(lang="es")
+    head 
+        include componentes/mixins.pug  
+        include componentes/head.pug
+    body
+        include componentes/header.pug
+        section.news
+            section.newsprincipal
+                h2.title Noticias
+                .newimg
+                    img(src="../assets/img/news.png", alt="Avances de la tecnologia")
+                section.newsprincipal__description
+                    h2 Blog title
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illum accusamus soluta vitae quaerat aliquam, delectus consequatur dolore sequi maiores non veniam sapiente aliquid est corrupti unde eos. Voluptas, voluptatum.
+                    button.dos: a(href="./blog.html") Entra ya!
+        section.blogs
+            h2.blogs__title Últimos Blogpost
+            section.blogs__container
+                    +blogs("../assets/img/post1.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+                    +blogs("../assets/img/post2.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+                    +blogs("../assets/img/post3.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+                    +blogs("../assets/img/post1.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+                    +blogs("../assets/img/post2.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+                    +blogs("../assets/img/post3.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+        include componentes/footer.pug

@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    &__icons-container {
+        width: 100%;
+        height: 50px;
+        display: grid;
+        background-color: #48cfad;
+        .icons {
+            position: relative;
+            width: 210px;
+            height: auto;
+            display: flex;
+            justify-items: flex-end;
+            align-items: center;
+            justify-content: space-between;
+            justify-self: end;
+            margin-right: 50px;
+        }
+    }
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 90px;
+        &__logo-container {
+            margin-left: 50px;
+            img {
+                width: 200px;
+                margin-top: 10px;
+            }
+        }
+        .profile__link {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 50px;
+            a {
+                color: black;
+                font-size: 1.8rem;
+                font-weight: 500;
+            }
+            a:hover {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

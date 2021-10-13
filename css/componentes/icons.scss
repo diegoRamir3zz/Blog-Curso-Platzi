@@ -1,0 +1,20 @@
+.icons1 {
+    @include iconos;
+    background-image: url(../assets/facebook.svg);
+}
+.icons2 {
+    @include iconos;
+    background-image: url(../assets/instagram.svg);
+}
+.icons3 {
+    @include iconos;
+    background-image: url(../assets/twitter.svg);
+}
+.icons4 {
+    @include iconos;
+    background-image: url(../assets/whatsapp.svg);
+}
+.icons5 {
+    @include iconos;
+    background-image: url(../assets/github.svg);
+}

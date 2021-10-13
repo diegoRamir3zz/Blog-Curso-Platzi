@@ -1,0 +1,11 @@
+mixin blogs($img, $alt, $titulo, $description)
+    .blogs__container--cards
+        img(src=""+$img, alt=""+alt)
+        h3=$titulo
+        p=$description
+        button.dos: a(href="./blog.html") Leer más
+
+mixin  proyectos($titulo, $adelanto)
+    article.proyectos__container--card
+        h3=$titulo
+        p=$adelanto

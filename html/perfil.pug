@@ -1,0 +1,21 @@
+doctype!
+html(lang="es")
+    head 
+        include componentes/mixins.pug  
+        include componentes/head.pug
+    body
+        include componentes/header.pug
+        section.perfil 
+            .perfil__container
+                img(src="../assets/img/profile.jpg", alt="Imagen de perfil")
+                .perfil__container--description
+                    h1 Hola!
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.
+        section.proyectos 
+            h2 Proyectos
+            .proyectos__container
+                +proyectos("Titulo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.")
+                +proyectos("Titulo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.")
+                +proyectos("Titulo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe. psum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.")
+        include componentes/contacto.pug
+        include componentes/footer.pug
