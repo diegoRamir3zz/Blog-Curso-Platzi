@@ -1,3 +1,8 @@
+$colorGeneral: #38B6FF;
+$colorClaro: #fff;
+$colorOscuro: #000;
+$colorVariacion: #22272d;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +22,12 @@ html {
 a {
     text-decoration: none;
     display: inline;
-    color: black;
+    color: $colorOscuro;
 }
 button {
         width: 120px;
         height: 50px;
-        background-color: #48cfad;
+        background-color: $colorGeneral;
         border: none;
         border-radius: 5px;
     a {
@@ -31,8 +36,7 @@ button {
     }
 }
 button:hover {
-        outline: 1px solid white;
-        background-color: #40b396;
+        outline: 1px solid $colorClaro;
 }
 
 button.dos{
@@ -40,7 +44,7 @@ button.dos{
     height: 50px;
     margin-top: 20px;
     background-color: transparent;
-    border: 1px solid #40b396;
+    border: 1px solid $colorGeneral;
     border-radius: 5px;
     font-size: 1.8rem;
     a {
@@ -49,6 +53,6 @@ button.dos{
     }
 }
 button.dos:hover {
-    outline: 1px solid white;
-    background-color: #40b396;
+    outline: 1px solid $colorClaro;
+    background-color: $colorGeneral;
 }

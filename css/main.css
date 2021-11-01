@@ -20,13 +20,13 @@ html {
 a {
   text-decoration: none;
   display: inline;
-  color: black;
+  color: #000;
 }
 
 button {
   width: 120px;
   height: 50px;
-  background-color: #48cfad;
+  background-color: #38B6FF;
   border: none;
   border-radius: 5px;
 }
@@ -36,8 +36,7 @@ button a {
 }
 
 button:hover {
-  outline: 1px solid white;
-  background-color: #40b396;
+  outline: 1px solid #fff;
 }
 
 button.dos {
@@ -45,7 +44,7 @@ button.dos {
   height: 50px;
   margin-top: 20px;
   background-color: transparent;
-  border: 1px solid #40b396;
+  border: 1px solid #38B6FF;
   border-radius: 5px;
   font-size: 1.8rem;
 }
@@ -55,8 +54,8 @@ button.dos a {
 }
 
 button.dos:hover {
-  outline: 1px solid white;
-  background-color: #40b396;
+  outline: 1px solid #fff;
+  background-color: #38B6FF;
 }
 
 .header {
@@ -69,11 +68,11 @@ button.dos:hover {
   width: 100%;
   height: 50px;
   display: grid;
-  background-color: #48cfad;
+  background-color: #38B6FF;
 }
 .header__icons-container .icons {
   position: relative;
-  width: 210px;
+  width: 100px;
   height: auto;
   display: flex;
   justify-items: flex-end;
@@ -88,7 +87,7 @@ button.dos:hover {
   height: 90px;
 }
 .header .nav__logo-container {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .header .nav__logo-container img {
   width: 200px;
@@ -101,21 +100,12 @@ button.dos:hover {
   margin-right: 50px;
 }
 .header .nav .profile__link a {
-  color: black;
+  color: #000;
   font-size: 1.8rem;
   font-weight: 500;
 }
 .header .nav .profile__link a:hover {
-  border-bottom: 1px solid black;
-}
-
-.icons1 {
-  width: 30px;
-  height: 30px;
-  top: calc(50% - 15px);
-  background-size: contain;
-  position: absolute;
-  background-image: url(../assets/facebook.svg);
+  border-bottom: 1px solid #000;
 }
 
 .icons2 {
@@ -127,22 +117,13 @@ button.dos:hover {
   background-image: url(../assets/instagram.svg);
 }
 
-.icons3 {
-  width: 30px;
-  height: 30px;
-  top: calc(50% - 15px);
-  background-size: contain;
-  position: absolute;
-  background-image: url(../assets/twitter.svg);
-}
-
 .icons4 {
   width: 30px;
   height: 30px;
   top: calc(50% - 15px);
   background-size: contain;
   position: absolute;
-  background-image: url(../assets/whatsapp.svg);
+  background-image: url(../assets/telegram.svg);
 }
 
 .icons5 {
@@ -157,7 +138,7 @@ button.dos:hover {
 .main {
   width: 100%;
   height: 100%;
-  background-image: url(../assets/img/cover.png);
+  background-image: url(../assets/img/cover.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,6 +154,7 @@ button.dos:hover {
 }
 .main__encabezado-h1 {
   color: white;
+  text-align: center;
   font-size: 3.5rem;
   letter-spacing: 8px;
 }
@@ -378,13 +360,13 @@ button.dos:hover {
   width: 100%;
   height: 150px;
   background-color: #22272d;
-  border-top: 30px solid #40b396;
+  border-top: 30px solid #38B6FF;
   text-align: center;
 }
 .footer p {
   letter-spacing: 8px;
   font-size: 2rem;
-  color: white;
+  color: #fff;
   margin-top: 50px;
 }
 
