@@ -7,20 +7,17 @@ html(lang="es")
         include componentes/header.pug
         section.news
             section.newsprincipal
-                h2.title Noticias
+                h2.title Front-end
                 .newimg
-                    img(src="../assets/img/news.png", alt="Avances de la tecnologia")
+                    img(src="../assets/front_end.svg", alt="Avances de la tecnologia")
                 section.newsprincipal__description
-                    h2 Blog title
-                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illum accusamus soluta vitae quaerat aliquam, delectus consequatur dolore sequi maiores non veniam sapiente aliquid est corrupti unde eos. Voluptas, voluptatum.
+                    h2 Tecnologias principales
+                    p En este blog hablare de las tecnologias pricipales front-end y lo que yo he aprendido sobre ellas.
                     button.dos: a(href="./blog.html") Entra ya!
         section.blogs
-            h2.blogs__title Últimos Blogpost
+            h2.blogs__title Blogs Principales
             section.blogs__container
-                    +blogs("../assets/img/post1.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
-                    +blogs("../assets/img/post2.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
-                    +blogs("../assets/img/post3.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
-                    +blogs("../assets/img/post1.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
-                    +blogs("../assets/img/post2.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
-                    +blogs("../assets/img/post3.png", "Joven con gafas de realidad virtual.", "Titulo del Blogpost", "Aqui debe haber una descripción muy elaborada y bien preparada para especificar porque le interesa a la persona leer este blogPost")
+                    +blogs("../assets/html.svg", "Joven con gafas de realidad virtual.", "HTML: Maquetar", "HTML es el lenguaje más basico y con el que por defecto  construimos paginas web, con el podemos maquetar la estructura general de nuestra pagina web, entre muchas otra cosas...")
+                    +blogs("../assets/css.svg", "Joven con gafas de realidad virtual.", "CSS: Estilos", "Con CSS podras darle estilos al maquetado que crees con html. En todas las paginas que ingreses veras el uso de css, pues nos permite personalizar la web a nuestro acomodo.")
+                    +blogs("../assets/javascript.svg", "Joven con gafas de realidad virtual.", "JAVASCRIPT: Interacción", "JAVASCRIPT es la herramienta que nos ayuda a darle la interacción a nuestro sitio web, y nos permite acer paginas mucho más dinamicas y entretenidas para los usuarios. ")
         include componentes/footer.pug

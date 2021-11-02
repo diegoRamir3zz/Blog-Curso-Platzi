@@ -5,7 +5,8 @@ mixin blogs($img, $alt, $titulo, $description)
         p=$description
         button.dos: a(href="./blog.html") Leer más
 
-mixin  proyectos($titulo, $adelanto)
+mixin  proyectos($titulo, $adelanto, $enlace_github)
     article.proyectos__container--card
         h3=$titulo
         p=$adelanto
+        a(href=""+$enlace_github) Ir a GitHub

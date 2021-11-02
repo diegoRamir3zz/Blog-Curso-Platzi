@@ -7,15 +7,16 @@ html(lang="es")
         include componentes/header.pug
         section.perfil 
             .perfil__container
-                img(src="../assets/img/profile.jpg", alt="Imagen de perfil")
+                img(src="../assets/contract.svg", alt="Imagen de perfil")
                 .perfil__container--description
-                    h1 Hola!
-                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.
+                    h1 Información adicional
+                    br
+                    p ¡Hola!, soy Juan. Si deseas contactarme arriba te dejo mis redes sociales, o si quieres hacer alguna correccion al lo descrito en este blog, te invito a hacerme un Pull requests en mi GitHub. ¡Gracias por leer!
         section.proyectos 
-            h2 Proyectos
+            h2 Algunos proyectos
             .proyectos__container
-                +proyectos("Titulo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.")
-                +proyectos("Titulo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.")
-                +proyectos("Titulo", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe. psum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat delectus veritatis ipsum incidunt iure tenetur pariatur voluptas consectetur, ad corporis velit, consequuntur commodi reiciendis odio quidem dolore nisi saepe.")
-        include componentes/contacto.pug
+                +proyectos("Batatabit", "Batatabit es un proyecto que realice con el curso de Platzi, alli, creamos una pagina web desde cero totalmente responsive. Ademas utilice el metodo de Mobile First para optimizar el flujo de trabajo.", "https://github.com/diegoRamir3zz/Batatabit")
+                +proyectos("Platzi_video", "Platzi video en un proyecto que me permitio aprender algunas formas de aplicar animaciones, y modularizar gran parte del codigo con pug y asi lograr que el codigo sea mas optimo.", "https://github.com/diegoRamir3zz/Platzi_video")
+                +proyectos("Blog", "Este blog tambien es un proyacto personal, el cual inicie con el curso de Platzi. Esta personalizado y adaptado utilizando los recursos que he aprendido con los cursos que he tomado.", "https://github.com/diegoRamir3zz/Blog-Curso-Platzi")
+        //- include componentes/contacto.pug
         include componentes/footer.pug

@@ -1,6 +1,7 @@
 .blogpost__img--container {
-    width: 100%;
+    max-width: 700px;
     padding: 0 60px 40px;
+    margin: 0 auto;
     margin-bottom: 30px;
     img {
         width: 100%;
@@ -8,8 +9,9 @@
 }
 .blogpost__main--container {
     width: 80%;
+    min-height: 300px;
     padding: 0 50px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
     h3 {
         font-size: 1.8rem;
         padding-bottom: 10px;

@@ -203,9 +203,9 @@ button.dos:hover {
 }
 
 .blogs {
+  min-height: 150px;
   width: 100%;
-  padding: 40px;
-  margin-bottom: 350px;
+  padding: 50px 40px 0;
 }
 .blogs__title {
   font-size: 2rem;
@@ -220,11 +220,9 @@ button.dos:hover {
   border-top: 1px solid #cdd2da;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 .blogs__container--cards {
   width: 100%;
-  height: auto;
   padding: 40px;
 }
 .blogs__container--cards img {
@@ -242,8 +240,9 @@ button.dos:hover {
 }
 
 .blogpost__img--container {
-  width: 100%;
+  max-width: 700px;
   padding: 0 60px 40px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 .blogpost__img--container img {
@@ -252,8 +251,9 @@ button.dos:hover {
 
 .blogpost__main--container {
   width: 80%;
+  min-height: 300px;
   padding: 0 50px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
 }
 .blogpost__main--container h3 {
   font-size: 1.8rem;
@@ -313,7 +313,7 @@ button.dos:hover {
   margin: 0 auto;
 }
 .perfil__container img {
-  width: 90%;
+  width: 150px;
 }
 .perfil__container--description {
   padding: 20px;
@@ -355,19 +355,34 @@ button.dos:hover {
 .proyectos__container--card p {
   letter-spacing: 2px;
 }
+.proyectos__container--card a {
+  color: #38B6FF;
+}
 
 .footer {
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-color: #22272d;
   border-top: 30px solid #38B6FF;
   text-align: center;
 }
 .footer p {
+  padding-top: 50px;
+  height: 60%;
   letter-spacing: 8px;
-  font-size: 2rem;
+  font-size: 1.8em;
   color: #fff;
-  margin-top: 50px;
+}
+.footer .atribuciones {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer .atribuciones a {
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
