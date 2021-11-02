@@ -266,8 +266,8 @@ button.dos:hover {
   margin-bottom: 20px;
 }
 .blogpost__main--container p {
-  letter-spacing: 3px;
-  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-weight: 400;
   font-size: 1.8rem;
   margin-bottom: 30px;
 }
